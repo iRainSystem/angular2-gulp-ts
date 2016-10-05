@@ -31,7 +31,7 @@ A basic Angular2 application with Gulp as build system.
 
 Clone the repository:
 
-> git clone https://github.com/kolorobot/angular2-typescript-gulp.git
+> git clone https://github.com/iRainSystem/angular2-gulp-ts.git
 
 Navigate to `angular2-typescript-gulp` directory:
 
@@ -63,5 +63,3 @@ The application will be displayed in the browser.
 
 Resources
 ---------
-
-- [A step-by-step tutorial](http://blog.codeleak.pl/2016/03/quickstart-angular2-with-typescript-and.html)
