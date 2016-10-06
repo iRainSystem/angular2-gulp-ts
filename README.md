@@ -2,29 +2,16 @@ Angular2 with TypeScript and Gulp
 =================================
 
 A basic Angular2 application with Gulp as build system.
+Used bootstrap 3.4.
 
 #### 1. Prerequisites
 
 *nodejs* must be installed on your system and the below global node packages must be installed:
 
-- gulp
-
 > npm i -g gulp
-
-- gulp-cli
-
 > npm i -g gulp-cli
-
-- typings
-
 > npm i -g typings@1.3.3
-
-- typescript
-
 > npm i -g typescript@2.0.3
-
-- ts-node
-
 > npm i -g ts-node@1.3.0
 
 #### 2. Cloning the repository
@@ -33,7 +20,7 @@ Clone the repository:
 
 > git clone https://github.com/iRainSystem/angular2-gulp-ts.git
 
-Navigate to `angular2-typescript-gulp` directory:
+Navigate to `angular2-gulp-ts` directory:
 
 > cd angular2-gulp-ts
 
