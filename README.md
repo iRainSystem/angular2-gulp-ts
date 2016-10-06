@@ -9,9 +9,13 @@ Used bootstrap 3.4.
 *nodejs* must be installed on your system and the below global node packages must be installed:
 
 > npm i -g gulp
+
 > npm i -g gulp-cli
+
 > npm i -g typings@1.3.3
+
 > npm i -g typescript@2.0.3
+
 > npm i -g ts-node@1.3.0
 
 #### 2. Cloning the repository
