@@ -1,9 +1,10 @@
 import {Routes, RouterModule} from "@angular/router";
+import {HomeComponent} from './workspace/home/components/home.component';
 import {ModuleWithProviders} from "@angular/core";
-//import {AppComponent} from './app.component';
 
 const appRoutes: Routes = [
-    //{path: '', component: AppComponent}
+    {path: '', redirectTo: 'home', pathMatch: 'full'},
+    {path: 'home', component: HomeComponent, data: {title: 'Home'}}
 ];
 
 export const appRoutingProviders: any[] = [];

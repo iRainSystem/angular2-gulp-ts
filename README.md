@@ -35,7 +35,7 @@ Clone the repository:
 
 Navigate to `angular2-typescript-gulp` directory:
 
-> cd angular2-typescript-gulp
+> cd angular2-gulp-ts
 
 #### 3. Installing dependencies
 
