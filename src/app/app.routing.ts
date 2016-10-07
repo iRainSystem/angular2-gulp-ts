@@ -1,10 +1,10 @@
 import {Routes, RouterModule} from "@angular/router";
-import {HomeComponent} from './workspace/home/components/home.component';
+import {WorkspaceComponent} from './workspace/workspace.component';
 import {ModuleWithProviders} from "@angular/core";
 
 const appRoutes: Routes = [
-    {path: '', redirectTo: 'home', pathMatch: 'full'},
-    {path: 'home', component: HomeComponent, data: {title: 'Home'}}
+    {path: '', redirectTo: 'workspace', pathMatch: 'full'},
+    {path: 'workspace', component: WorkspaceComponent, data: {title: 'Workspace'}}
 ];
 
 export const appRoutingProviders: any[] = [];
