@@ -4,7 +4,8 @@ import {BrowserModule} from '@angular/platform-browser';
 import {AppComponent} from "./app.component";
 import {LoginComponent} from "./login/login.component";
 import {WorkspaceComponent} from "./workspace/workspace.component";
-import {HomeComponent} from "./workspace/home/components/home.component";
+
+import {WorkspaceModule} from "./workspace/workspace.module";
 
 import {routing, appRoutingProviders} from './app.routing';
 import {FormsModule} from "@angular/forms";
@@ -13,13 +14,13 @@ import {FormsModule} from "@angular/forms";
     imports: [
         BrowserModule,
         FormsModule,
-        routing
+        routing,
+        WorkspaceModule
     ],
     declarations: [
         AppComponent,
         LoginComponent,
-        WorkspaceComponent,
-        HomeComponent
+        WorkspaceComponent
     ],
     providers: [
         appRoutingProviders
