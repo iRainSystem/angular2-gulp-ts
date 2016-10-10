@@ -1,4 +1,8 @@
-/*
-* Main style sheet file
-*/
-@import "../../../../node_modules/bootstrap/dist/css/bootstrap.min.css";
+//
+//include bootstrap 4.0.0 alpha.2
+//
+@import '../../../../node_modules/bootstrap/dist/css/bootstrap.min.css';
+@import 'lib/components/_app_component.scss';
+@import 'lib/components/_workspace_component.scss';
+@import 'lib/components/_login_component.scss';
+@import 'lib/components/_home_component.scss';

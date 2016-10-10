@@ -15,7 +15,7 @@ import {FormsModule} from "@angular/forms";
         BrowserModule,
         FormsModule,
         routing,
-        WorkspaceModule
+        WorkspaceModule,
     ],
     declarations: [
         AppComponent,

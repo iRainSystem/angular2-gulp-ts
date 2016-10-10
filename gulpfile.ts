@@ -75,6 +75,9 @@ gulp.task('watch', function () {
     gulp.watch(["src/**/*.html", "src/**/*.css"], ['resources']).on('change', function (e) {
         console.log('Resource file ' + e.path + ' has been changed. Updating.');
     });
+    gulp.watch(["src/**/*.scss"], ['scss']).on('change', function (e) {
+        console.log('Scss file ' + e.path + ' has been changed. Compiling.');
+    });
 });
 
 /**

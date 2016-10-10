@@ -5,10 +5,11 @@ import {HomeComponent} from "./home/home.component";
   declarations: [
     HomeComponent
   ],
-  exports: [
+  entryComponents: [
     HomeComponent
   ]
 })
 
 export class WorkspaceModule {
+
 }

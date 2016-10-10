@@ -1,0 +1,12 @@
+.plate {
+            width: 250px;
+            position: absolute;
+            border: 1px solid gray;
+            border-radius: 5px;
+            overflow: hidden;
+            position: fixed;
+            left: 100px;
+            top: 100px;
+            background: #ececec;
+            box-shadow: 0 0 10px rgba(0,0,0,0.45);
+}
