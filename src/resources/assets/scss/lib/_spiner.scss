@@ -1,0 +1,8 @@
+@import 'spiners/_spiner_var';
+@import 'spiners/_spiner_animations';
+
+@import 'spiners/_spiner07';
+
+.loader-spiner-07 {
+  @include loader-spiner-07($size: 12px);
+}
